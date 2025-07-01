@@ -21,10 +21,12 @@ jwt = JWTManager(app)
 
 
 from routes.auth import auth_bp
-from routes.openai import prompt_bp
+from routes.mistralai import prompt_bp
+from routes.groqai import prompt_groqai_bp
 
 app.register_blueprint(auth_bp, url_prefix='/api/auth')
 app.register_blueprint(prompt_bp, url_prefix='/api/mistral')
+app.register_blueprint(prompt_groqai_bp, url_prefix='/api/groqai')
 
 with app.app_context():
     db.create_all()
