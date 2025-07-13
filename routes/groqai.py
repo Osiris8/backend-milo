@@ -6,7 +6,7 @@ from  utils.groqai_service import askGroqAI
 
 prompt_groqai_bp = Blueprint('prompt_groq', __name__)
 
-@prompt_groqai_bp.route('/prompt', methods=['POST'])
+@prompt_groqai_bp.route('prompt', methods=['POST'])
 @jwt_required()
 def create_prompt():
     data = request.get_json()

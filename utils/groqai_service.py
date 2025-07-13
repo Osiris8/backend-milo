@@ -14,7 +14,7 @@ def askGroqAI(prompt):
             "content": prompt,
         }
     ],
-     model="gemma2-9b-it",
+     model="meta-llama/llama-4-scout-17b-16e-instruct",
 )
 
     return (chat_completion.choices[0].message.content)
