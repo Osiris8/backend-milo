@@ -1,6 +1,6 @@
 # 🧠 Milo – Fullstack AI Assistant (Backend)
 
-**Milo backend** is a robust backend for a fullstack AI assistant application, built with **Flask**, **JWT Authentication**, **Python**, and **Neon Database**. It integrates with **Groq Cloud** and **Mistral** AI models to power intelligent interactions, with API testing facilitated by **Postman**. This repository contains the backend logic, including authentication, routing, and AI model integration.
+**Milo** is a robust backend for a fullstack AI assistant application, built with **Flask**, **JWT Authentication**, **Python**, and **Neon Database**. It integrates with **Groq Cloud** and **Mistral** AI models to power intelligent interactions, with API testing facilitated by **Postman**. This repository contains the backend logic, including authentication, routing, and AI model integration.
 
 🌐 **Frontend Repository**: [https://github.com/Osiris8/frontend-milo](https://github.com/Osiris8/frontend-milo)
 
@@ -147,6 +147,7 @@ To test the API endpoints, use **Postman** to send requests to the backend. Belo
    - **Response**: Returns the Mistral AI response.
 
 2. **Send Prompt with Groq (Gemma Model)**
+
    - **Method**: POST
    - **URL**: `https://backend-milo.onrender.com/api/groqai/prompt`
    - **Headers**: `Authorization: Bearer <your_jwt_token>`
