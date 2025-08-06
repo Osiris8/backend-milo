@@ -106,7 +106,7 @@ To test the API endpoints, use **Postman** to send requests to the backend. Belo
    - **Body** (JSON):
      ```json
      {
-       "username": "your_username",
+       "email": "your_email@gmail.com",
        "password": "your_password"
      }
      ```
@@ -119,7 +119,7 @@ To test the API endpoints, use **Postman** to send requests to the backend. Belo
    - **Body** (JSON):
      ```json
      {
-       "username": "your_username",
+       "email": "your_email@gmail.com",
        "password": "your_password"
      }
      ```
