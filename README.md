@@ -1,22 +1,22 @@
-# 🧠 Milo – Fullstack AI Assistant (Backend)
+# Milo – Fullstack AI Assistant (Backend)
 
 **Milo** is a robust backend for a fullstack AI assistant application, built with **Flask**, **JWT Authentication**, **Python**, and **Neon Database**. It integrates with **Groq Cloud** and **Mistral** AI models to power intelligent interactions, with API testing facilitated by **Postman**. This repository contains the backend logic, including authentication, routing, and AI model integration.
 
-🌐 **Frontend Repository**: [https://github.com/Osiris8/frontend-milo](https://github.com/Osiris8/frontend-milo)
+**Frontend Repository**: [https://github.com/Osiris8/frontend-milo](https://github.com/Osiris8/frontend-milo)
 
 ---
 
-## ✨ Features
+## Features
 
-- 🛠️ Lightweight and scalable API built with **Flask**.
-- 🔒 Secure user authentication using **JWT**.
-- 🗄️ Reliable data storage with **Neon Database**.
-- 🤖 AI-powered endpoints powered by **Groq Cloud** and **Mistral** APIs.
-- 🧪 Easy API testing with **Postman** collections.
+- Lightweight and scalable API built with **Flask**.
+- Secure user authentication using **JWT**.
+- Reliable data storage with **Neon Database**.
+- AI-powered endpoints powered by **Groq Cloud** and **Mistral** APIs.
+- Easy API testing with **Postman** collections.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to set up and run the backend locally.
 
@@ -93,7 +93,7 @@ The backend will run on `http://localhost:5000`. You can verify it’s working u
 
 ---
 
-## 🧪 Testing with Postman
+## Testing with Postman
 
 To test the API endpoints, use **Postman** to send requests to the backend. Below are the key endpoints for authentication, AI prompt handling, and prompt management. For local testing, use `http://localhost:5000`. For the deployed backend, use `https://backend-milo.onrender.com`.
 
@@ -106,7 +106,7 @@ To test the API endpoints, use **Postman** to send requests to the backend. Belo
    - **Body** (JSON):
      ```json
      {
-       "email": "your_email@gmail.com",
+       "username": "your_username",
        "password": "your_password"
      }
      ```
@@ -119,7 +119,7 @@ To test the API endpoints, use **Postman** to send requests to the backend. Belo
    - **Body** (JSON):
      ```json
      {
-       "email": "your_email@gmail.com",
+       "username": "your_username",
        "password": "your_password"
      }
      ```
@@ -208,7 +208,7 @@ To test the API endpoints, use **Postman** to send requests to the backend. Belo
 - For authenticated endpoints, include the JWT token in the `Authorization` header as `Bearer <token>`.
 - If a Postman collection is available in the repository, import it for pre-configured requests.
 
-## 📚 Tech Stack
+## Tech Stack
 
 - **Framework**: Flask
 - **Authentication**: JWT (Flask-JWT-Extended)
@@ -220,7 +220,7 @@ To test the API endpoints, use **Postman** to send requests to the backend. Belo
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -232,10 +232,10 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📬 Contact
+## Contact
 
 Have questions or suggestions? Connect on [X](https://x.com/migan_osiris).
 
 ---
 
-⭐ **Star this repo if you find it useful!**
+**Star this repo if you find it useful!**
